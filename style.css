@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 html{
     scroll-behavior: smooth;
@@ -8,7 +9,6 @@ html{
 .navbar{
  padding: 10px;
  font-size:23px;
-position: relative;
 background-color: rgb(7, 7, 7);
 }
 .navbar .list a{
@@ -266,7 +266,7 @@ color: black;
 }
 .footer{
     padding:30px;
-    background-color: rgb(3, 3, 3);
+    background-color: #030303;
 }
 .footer p{
     margin-top: 15px;
@@ -274,11 +274,11 @@ color: black;
 }
 .footer button{
     padding: 10px 20px;
-    background-color: rgb(249, 245, 245);
+    background-color:#f9f5f5;
     border: none;
 }
 .footer button:hover{
-    background-color: rgb(143, 147, 151);
+    background-color: #8f9387;
 }
 .hidden{
     display: none;
@@ -315,7 +315,6 @@ color: black;
      }
      .maincontainer{
         padding:20px;
-        background-color:rgba(148, 142, 142, 0.5);
        display: flex;
        flex-direction: column;
        gap: 60px;
@@ -328,6 +327,11 @@ color: black;
         width: 100%;
     }
     .tagcontent{
-        font-size: 12px;
+        font-size: 10px;
     }
+    .tagcontent span{
+        padding: 6px;
+        background-color: rgb(207, 207, 223);
+        margin-top: 40px;
+     }
 }
